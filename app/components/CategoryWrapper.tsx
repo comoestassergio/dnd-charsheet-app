@@ -13,7 +13,7 @@ const CategoryWrapper: React.FC<CategoryWrapperProps> = ({
     return (
         <div className={`relative border border-neutral-500 rounded-xl flex items-center justify-center ${pad ? pad : 'py-6 px-5' }`}>
             <div className="absolute -top-3 left-3 bg-white px-3">
-                <span className="font-bold text-md first-letter:capitalize">{title}</span>
+                <span className="font-bold text-md capitalize">{title}</span>
             </div>
 
             {children}
